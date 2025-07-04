@@ -1,7 +1,19 @@
-    This project provides an overview of this car-reviewer project.
-    'ai_reviewer_main.ipynb' ==> is the notebook which holds it all
     
-    The notebook's goal is to recommend the top 3 cars based on user preferences by leveraging data cleaning, 
+    Troubles in uploading the files. Kindly follow these instructions to construct the folder tree.
+    Create folder ai-reviewer which has data, and notebooks
+    Final dataset should be saved as: ai-reviewer/data/enriched_with_clusters_deployment.csv
+    
+        To generate this data using the notebook: Download datasets from https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews?utm_source=chatgpt.com and store in ai-reviewer/data/original/. Enrichment dataset came from https://www.kaggle.com/datasets/ademboukhris/expert-car-reviews-dataset?utm_source=chatgpt.com and should be saved in ai-reviewer/data/
+        'ai_reviewer_main.ipynb' ==> is the notebook which holds it all
+    
+    app.py should be in ai-reviewer/
+    So is the picture for the background, ai-reviewer/Background.jpg
+
+    Steamlit should be run in terminal with command: streamlit run app.py
+    
+    This project provides an overview of this car-reviewer project.
+    
+    The 'ai_reviewer_main.ipynb' notebook's goal is to recommend the top 3 cars based on user preferences by leveraging data cleaning, 
     sentiment analysis, topic modeling, clustering, summarization using gpt and a prototype deployment setup.
     The notebook uses MLflow to track experiments and log metrics.
     
